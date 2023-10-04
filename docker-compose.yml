@@ -10,7 +10,7 @@ services:
       MYSQL_HOST: mysql
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
-      MYSQL_DB: myDb
+      MYSQL_DB: mydb
     depends_on:
       - mysql
 
@@ -18,7 +18,7 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: myDb
+      MYSQL_DATABASE: mydb
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     volumes:
