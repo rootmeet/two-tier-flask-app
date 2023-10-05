@@ -28,6 +28,7 @@ spec:
               value: "mydb"
           ports:
             - containerPort: 3306
+          imagePullPolicy: Always
           volumeMounts:
             - name: mysqldata
               mountPath: /var/lib/mysql
