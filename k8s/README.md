@@ -175,54 +175,40 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config" tabindex="0" role="button">
     </clipboard-copy>
   </div></div>
 <hr>
-<h2 tabindex="-1" id="user-content-optional-test-a-demo-pod" dir="auto"><a class="heading-link" href="#optional-test-a-demo-pod">Optional: Test a demo Pod<svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></h2>
-<p dir="auto">If you want to test a demo pod, you can use the following command:</p>
-<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>kubectl run hello-world-pod --image=busybox --restart=Never --command -- sh -c <span class="pl-s"><span class="pl-pds">"</span>echo 'Hello, World' &amp;&amp; sleep 3600<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="kubectl run hello-world-pod --image=busybox --restart=Never --command -- sh -c &quot;echo 'Hello, World' &amp;&amp; sleep 3600&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
-  </div></div>
-<p dir="auto"><kbd><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/40052830/261848566-bace1884-bbba-4e2f-8fb2-83bbba819d08.png"><img src="https://user-images.githubusercontent.com/40052830/261848566-bace1884-bbba-4e2f-8fb2-83bbba819d08.png" alt="image" style="max-width: 100%;"></a></kbd></p>
-</article>
 
 <img width="540" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/a219c479-42ec-46af-9874-51e9816436d0">
 <img width="469" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/8cfdbc95-d789-4892-975d-83693df77830">
-kubectl apply -f two-tier-app-pod.yml
+<p dir="auto">kubectl apply -f two-tier-app-pod.yml</p>
 <img width="481" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/c27651dd-0070-4cfc-9b2c-64b85da6b3d6">
-kubectl apply -f two-tier-app-deployment.yml
+<p dir="auto">kubectl apply -f two-tier-app-deployment.yml</p>
 <img width="505" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/93aae8c2-3ef8-413f-847d-118df6030ad8">
 <img width="430" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/91272220-3450-4b62-9878-4e66de22fcd2">
-kubectl apply -f two-tier-app-svc.yml
+<p dir="auto">kubectl apply -f two-tier-app-svc.yml</p>
 <img width="473" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/05f17a86-204d-46c2-b7e2-1ce8d78d7573">
-Add inpbound rule 30009
+<p dir="auto">Add inpbound rule 30009</p>
 <img width="741" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/7fe1ae09-4da1-44ae-8a68-ba0e590b2b85">
-Verify site <worker ip>:30009
+<p dir="auto">Verify site <worker ip>:30009</p>
 <img width="305" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/6f552c10-878e-49f8-b169-1dc58302eeb2">
-Create mysql pod
-kubectl apply -f mysql-deployment.yml
+<p dir="auto">Create mysql pod</p>
+<p dir="auto">kubectl apply -f mysql-deployment.yml</p>
 <img width="471" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/d33a9d53-fda8-4377-91a5-666a78eadf9a">
-Create mysql service
-kubectl apply -f mysql-svc.yml
+<p dir="auto">Create mysql service</p>
+<p dir="auto">kubectl apply -f mysql-svc.yml</p>
 <img width="468" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/585985f6-72e3-4c85-90a7-01795b5dd170">
-Create persistent volume for mysql
-kubectl apply -f mysql-pv.yml
+<p dir="auto">Create persistent volume for mysql</p>
+<p dir="auto">kubectl apply -f mysql-pv.yml</p>
 <img width="422" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/f993cae3-1816-4ff3-815e-be30c5a438c0">
-Create persistent volume claim for mysql
-kubectl apply -f mysql-pvc.yml
+<p dir="auto">Create persistent volume claim for mysql</p>
+<p dir="auto">kubectl apply -f mysql-pvc.yml</p>
 <img width="447" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/5ed0db7b-b99a-4198-b993-85acf80c50e9">
-K8S Overview
+<p dir="auto">K8S Overview</p>
 <img width="480" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/01dc0130-2df7-4df9-a6cf-3a88f1ca7ecc">
-Add internal ip address of mysql to flaskapp deployment
+<p dir="auto">Add internal ip address of mysql to flaskapp deployment</p>
 <img width="281" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/7ef21ea6-9b91-4e3e-8f02-052514b91891">
-kubectl apply -f two-tier-app-deployment.yml
+<p dir="auto">kubectl apply -f two-tier-app-deployment.yml</p>
 <img width="504" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/b18457d2-5834-44e1-bdfa-043f6b84667d">
 <img width="312" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/a7c6f276-bf07-4549-a64b-8123dc7dc669">
-Connect to mysql instance and create table messages
+<p dir="auto">Connect to mysql instance and create table messages</p>
 CREATE TABLE messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
     message TEXT
@@ -230,28 +216,16 @@ CREATE TABLE messages (
 <img width="437" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/072e7473-da5e-404e-92a4-23c11b3be5ae">
 <img width="439" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/f3b7e111-28c0-4d84-8485-f48f4cc07018">
 
-SetUp
-First clone the code to your machine
-git clone https://github.com/LondheShubham153/two-tier-flask-app.git
-Move to k8s directory
-cd two-tier-flask-app/k8s
-Now, execute below commands one by one
-kubectl apply -f twotier-deployment.yml
-kubectl apply -f twotier-deployment-svc.yml
-kubectl apply -f mysql-deployment.yml
-kubectl apply -f mysql-deployment-svc.yml
-kubectl apply -f persistent-volume.yml
-kubectl apply -f persistent-volume-claim.yml
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p dir="auto">SetUp<br />
+First clone the code to your machine<br />
+git clone https://github.com/LondheShubham153/two-tier-flask-app.git<br />
+Move to k8s directory<br />
+cd two-tier-flask-app/k8s<br />
+Now, execute below commands one by one<br />
+kubectl apply -f twotier-deployment.yml<br />
+kubectl apply -f twotier-deployment-svc.yml<br />
+kubectl apply -f mysql-deployment.yml<br />
+kubectl apply -f mysql-deployment-svc.yml<br />
+kubectl apply -f persistent-volume.yml<br />
+kubectl apply -f persistent-volume-claim.yml</p>
+</article>
