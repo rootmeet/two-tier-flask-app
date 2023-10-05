@@ -176,12 +176,12 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config" tabindex="0" role="button">
   </div></div>
 <hr>
 
-<img width="540" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/a219c479-42ec-46af-9874-51e9816436d0">
+<img width="540" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/a219c479-42ec-46af-9874-51e9816436d0"><br />
 <img width="469" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/8cfdbc95-d789-4892-975d-83693df77830">
 <p dir="auto">kubectl apply -f two-tier-app-pod.yml</p>
 <img width="481" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/c27651dd-0070-4cfc-9b2c-64b85da6b3d6">
 <p dir="auto">kubectl apply -f two-tier-app-deployment.yml</p>
-<img width="505" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/93aae8c2-3ef8-413f-847d-118df6030ad8">
+<img width="505" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/93aae8c2-3ef8-413f-847d-118df6030ad8"><br />
 <img width="430" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/91272220-3450-4b62-9878-4e66de22fcd2">
 <p dir="auto">kubectl apply -f two-tier-app-svc.yml</p>
 <img width="473" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/05f17a86-204d-46c2-b7e2-1ce8d78d7573">
@@ -206,14 +206,14 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config" tabindex="0" role="button">
 <p dir="auto">Add internal ip address of mysql to flaskapp deployment</p>
 <img width="281" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/7ef21ea6-9b91-4e3e-8f02-052514b91891">
 <p dir="auto">kubectl apply -f two-tier-app-deployment.yml</p>
-<img width="504" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/b18457d2-5834-44e1-bdfa-043f6b84667d">
+<img width="504" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/b18457d2-5834-44e1-bdfa-043f6b84667d"><br />
 <img width="312" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/a7c6f276-bf07-4549-a64b-8123dc7dc669">
 <p dir="auto">Connect to mysql instance and create table messages</p>
 CREATE TABLE messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
     message TEXT
 );
-<img width="437" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/072e7473-da5e-404e-92a4-23c11b3be5ae">
+<img width="437" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/072e7473-da5e-404e-92a4-23c11b3be5ae"><br />
 <img width="439" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/f3b7e111-28c0-4d84-8485-f48f4cc07018">
 
 <p dir="auto">SetUp<br />
