@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: two-tier-app
+  labels:
+    app: two-tier-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: two-tier-app
+  template:
+    metadata:
+      labels:
+        app: two-tier-app
+    spec:
+      containers:
+        - name: two-tier-app
+          image: sanjeevrisbud/flaskapp:latest
+          env:
+            - name: MYSQL_HOST
