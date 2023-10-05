@@ -230,6 +230,19 @@ CREATE TABLE messages (
 <img width="437" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/072e7473-da5e-404e-92a4-23c11b3be5ae">
 <img width="439" alt="image" src="https://github.com/rootmeet/two-tier-flask-app/assets/145815260/f3b7e111-28c0-4d84-8485-f48f4cc07018">
 
+SetUp
+First clone the code to your machine
+git clone https://github.com/LondheShubham153/two-tier-flask-app.git
+Move to k8s directory
+cd two-tier-flask-app/k8s
+Now, execute below commands one by one
+kubectl apply -f twotier-deployment.yml
+kubectl apply -f twotier-deployment-svc.yml
+kubectl apply -f mysql-deployment.yml
+kubectl apply -f mysql-deployment-svc.yml
+kubectl apply -f persistent-volume.yml
+kubectl apply -f persistent-volume-claim.yml
+
 
 
 
