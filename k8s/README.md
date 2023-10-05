@@ -218,7 +218,7 @@ CREATE TABLE messages (
 
 <p dir="auto">SetUp<br />
 First clone the code to your machine<br />
-git clone https://github.com/LondheShubham153/two-tier-flask-app.git<br />
+git clone https://github.com/rootmeet/two-tier-flask-app.git<br />
 Move to k8s directory<br />
 cd two-tier-flask-app/k8s<br />
 Now, execute below commands one by one<br />
