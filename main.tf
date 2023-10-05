@@ -156,3 +156,11 @@ resource "aws_instance" "k8s-worker" {
     ]
     }
 }
+
+output "k8s-worker-ip" {
+    value = aws_instance.k8s-worker.public_ip
+}
+
+output "k8s-master-ip" {
+    value = aws_instance.k8s-master.public_ip
+}
